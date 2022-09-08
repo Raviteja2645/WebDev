@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Fredoka+One&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Fredoka+One&family=Noto+Serif+Telugu:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: rgb(23, 22, 22);
+  font-family: "Caveat", cursive;
+  font-size: 35px;
+}
+header {
+  background: url("https://img.freepik.com/free-vector/stadium-cricket-night_1284-6363.jpg?w=740&t=st=1662129317~exp=1662129917~hmac=0bbcdb16c02a63c7d7ce316a25964f355067d6261936cd3bc29f68274ace786e")
+    no-repeat center/cover;
+  margin: 5px 3px;
+  border-radius: 5px;
+}
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9px;
+}
+.toss-input {
+  display: flex;
+  flex-direction: column;
+}
+#toss {
+  display: flex;
+  flex-direction: row;
+}
+#toss-text label {
+  color: #2fd8ca;
+  font-size: 22px;
+}
+.btnh {
+  text-decoration: none;
+  display: block;
+  border: 1px solid rgb(166, 59, 253);
+  padding: 9px 15px 9px 15px;
+  margin: 2px 8px 7px 5px;
+  color: bisque;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgba(25, 4, 61, 0.01);
+}
+.btnh:hover {
+  border: 2px solid #aaa;
+  font-family: "Inconsolata", monospace;
+  background-color: rgba(25, 4, 61, 2);
+}
+.inputNav {
+  display: block;
+  border-radius: 4px;
+  background-color: rgba(25, 4, 61, 0.2);
+  color: black;
+  margin: 2px 1px 1px 2px;
+  padding: 3px 1px 3px 4px;
+}
+.inputNav::placeholder {
+  color: black;
+}
+.inputNav:hover {
+  border: solid 2px rgb(162, 160, 111);
+}
+.inputNav:focus {
+  background-color: #7ba4ad;
+  border: #024453;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
